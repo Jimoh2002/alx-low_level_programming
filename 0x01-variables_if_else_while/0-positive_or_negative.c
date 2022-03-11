@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - assigns a random number to int n everytime
- * Description tell if a numberis positive, negative or zero
- * Return 0 if it exited, otherwise non-zero
+ * Description: tell if a numberis positive, negative or zero
+ * Return: 0 if it exited, otherwise non-zero
 */
 int main(void)
 {
