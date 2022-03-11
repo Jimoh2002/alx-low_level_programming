@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - assigns a random number to int n everytime
+ * Description tell if a numberis positive, negative or zero
+ * Return 0 if it exited, otherwise non-zero
+*/
 int main(void)
 {
 	int n;
