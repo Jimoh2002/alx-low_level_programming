@@ -1,21 +1,13 @@
-#include <stdio.h>
-#include <main.h>
+#include <unistd.h>
 
 /**
- * main - Prints (_putchar) and then a newline
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: Always 0 (Success)
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int _putchar(char c)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int i, size;
-
-	size = sizeof(str) / sizeof(int);
-	for (i = 0; i < size; ++i)
-	{
-		putchar(str[i]);
-	}
-	putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
